@@ -1,0 +1,26 @@
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+    selector:'app-root',
+    standalone: true,
+    imort: [RouterOutlrt].
+    templateUrl:'./app.component.html',
+    styleUrls:['./app.component.ss']
+    })
+    
+export class AppComponent {
+    title='Registration Form';
+
+    displayname='';
+    displayaddress='';
+    displaycontact='';
+    displayemail='';
+
+    getValue(name:string, addressing, contact:string, email:string){
+        this.displayname=name;
+        this.displayaddress=address;
+        this.displaycontact=contact;
+        this.displayemail=email;
+    }
+}

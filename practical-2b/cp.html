@@ -1,0 +1,22 @@
+cd
+cd partb
+docker --version
+node saniya.js
+docker built -t part b .
+docker images
+docker pull openjdk
+docker images
+docker run --name saniya -it -d openjdk
+docker ps
+docker exec -it saniya jshell
+
+jshell code = 
+int a = 10
+int b = 20
+system.out.println(a+b)
+
+/exit
+docker ps
+
+docker stop con_id
+docker container rm con_id

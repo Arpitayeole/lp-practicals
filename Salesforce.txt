@@ -1,0 +1,29 @@
+public class sample1 {
+    
+public static void studinfo()
+	{
+
+		system.debug('*****************');
+
+		system.debug('Student Details');
+
+		system.debug('****************');
+
+		String n = 'XYZ';
+
+		String b = 'IT Department';
+
+		String year = '3rd Year';
+
+		Integer roll = 15;
+
+		system.debug('Name:'+ n);
+
+		system.debug('Branch: '+ b);
+
+		system.debug('Class: '+ year);
+
+		system.debug('Roll No: '+ roll);
+
+	}
+}
